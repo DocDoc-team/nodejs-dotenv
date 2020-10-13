@@ -10,10 +10,6 @@ tools:
 
 build:
     nodes:
-        analysis:
-            tests:
-                override:
-                    - js-scrutinizer-run
         tests: true
         coverage:
             tests:
