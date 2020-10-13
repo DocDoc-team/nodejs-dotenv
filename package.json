@@ -26,6 +26,9 @@
     "url": "https://github.com/DocDoc-team/nodejs-dotenv/issues"
   },
   "homepage": "https://github.com/DocDoc-team/nodejs-dotenv#readme",
+  "engines": {
+    "node": ">=10"
+  },
   "dependencies": {
     "dotenv": "^8.2.0"
   },
