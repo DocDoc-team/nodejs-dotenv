@@ -1,0 +1,17 @@
+filter:
+    paths:
+        - 'src/*'
+
+checks:
+    javascript: true
+
+tools:
+    external_code_coverage: false
+
+build:
+    nodes:
+        analysis:
+            tests:
+                override:
+                    - js-scrutinizer-run
+        tests: true

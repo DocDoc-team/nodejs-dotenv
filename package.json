@@ -1,0 +1,45 @@
+{
+  "name": "symfony-dotenv",
+  "version": "1.0.0",
+  "description": "Loads environment variables from .env file as Symfony",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest tests/unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DocDoc-team/nodejs-dotenv.git"
+  },
+  "author": "alex pavlov",
+  "keywords": [
+    "dotenv",
+    "env",
+    ".env",
+    "environment",
+    "variables",
+    "config",
+    "settings",
+    "symfony"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DocDoc-team/nodejs-dotenv/issues"
+  },
+  "homepage": "https://github.com/DocDoc-team/nodejs-dotenv#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "jest": "^26.5.3"
+  },
+  "jest": {
+    "cacheDirectory": "tests/cache",
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**"
+    ],
+    "coverageDirectory": "tests/coverage",
+    "maxConcurrency": 5,
+    "notify": true
+  }
+}
