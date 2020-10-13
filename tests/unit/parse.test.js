@@ -58,3 +58,19 @@ test('env overwrite default params', () => {
 
     expect(expected).toStrictEqual(config);
 });
+
+test('test processEnv high priority', () => {
+    process.env = {APP_ENV: 'prod'};
+
+    let envPath = (__dirname + '/../.env');
+    let config = SymfonyEnv(envPath, {PARAM1: "p1", TARGET: "p3", APP_ENV: 'dev'});
+
+    let expected = {
+        "APP_ENV": "prod",
+        "TARGET": "env.local",
+        "LOCAL": "1",
+        "PARAM1": "p1",
+    };
+
+    expect(expected).toStrictEqual(config);
+});

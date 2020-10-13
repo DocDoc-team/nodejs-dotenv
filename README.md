@@ -13,3 +13,23 @@ In all environments, the following files are loaded if they exist, the latter ta
 * .env.$APP_ENV.local uncommitted environment-specific overrides
 
 [symfony doc](https://symfony.com/doc/current/configuration.html#configuration-multiple-env-files)
+
+
+### Install
+
+```sh
+# with npm 
+npm install symfony-dotenv
+ 
+# or with Yarn 
+yarn add symfony-dotenv
+```
+
+
+### Example
+
+```js
+# simple
+let envFactory = require('symfony-dotenv');
+let config = envFactory(__dirname + '.env');
+```
