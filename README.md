@@ -1,4 +1,4 @@
-# nodejs-dotenv
+# symfony-dotenv
 
 [![Build Status](https://travis-ci.org/DocDoc-team/nodejs-dotenv.svg?branch=main)](https://travis-ci.org/DocDoc-team/nodejs-dotenv)
 [![Code Coverage](https://scrutinizer-ci.com/g/DocDoc-team/nodejs-dotenv/badges/coverage.png?b=main)](https://scrutinizer-ci.com/g/DocDoc-team/nodejs-dotenv/?branch=main)
