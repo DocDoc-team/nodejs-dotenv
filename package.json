@@ -1,6 +1,6 @@
 {
   "name": "symfony-dotenv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Loads environment variables from .env file as Symfony",
   "main": "index.js",
   "scripts": {
